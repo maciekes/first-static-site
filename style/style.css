@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* GLOBAL STYLES */
+
+body {
+    background-color: #5CDB95;
+    font-family: Impact, Arial, sans-serif;
+    color: #EDF5E1;
+    line-height: 1.5;
+    letter-spacing: 2pt;
+}
+
+h1, h2, h3 {
+    color: #05386B;
+    text-align: center;
+}
+
+h1, h2 {
+    
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 48px;
+    color: #05386B;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+
+h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #05386B;
+    font-size 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: justify;
+    padding-left: 15px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+section {
+	clear: both;
+	padding: 60px 0;
+	overflow: auto;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+strong {
+    padding: 6px;
+}
+
+/* LOCAL STYLES */
+
+/*HEADER*/
+
+header {
+    color: #05386B;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 60px;
+}
+
+.logo {
+    margin-left: 50px;
+    float: left;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 44px;
+    height: 60px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    float: left;
+    padding: 10px 10px;
+    margin-top: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+/* ABOUT US */
+
+.about {
+    background-color: #379683;
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+}
+
+.about-center {
+    text-align: center;    
+}
+
+.about img {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+/* OFFER */
+.what-offer {
+    width: 30%;
+    float: left;
+    margin: 20px 5px;
+    text-align: center;
+}
+
+
+
+
+
+/* PROMOTIONS */
+.promotions {
+    background-color: #8EE4AF;
+}
+
+.promo-half {
+    width: 45%;
+    float: left;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.promo-half img {
+    width: 250px;
+    height: 250px;
+}
+
+/* CONTACT */
+.contact-half {
+    width: 50%;
+    float: left;
+}
+.contact-half p {
+    padding-left: 25px;
+    margin-top: 5px;
+    text-align: inherit;
+}
+
+.contact-half img {
+    width: 385px;
+    height: 110px;
+}
+/* FORM */
+form {
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.button {
+    background-color: #05386B;
+    color: #EDF5E1;
+	padding: 8px 20px;
+	margin: 16px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
+}
+
+.contact-half input {
+    width: 70%;
+    margin: 10px 5px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-half p {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: #05386B;
+    height: 30px;
+}
+
+.footer p {
+    font-size: 11px;
+    line-height: 30px;
+    text-align: left;
+}
